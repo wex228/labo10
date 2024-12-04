@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(casino.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+.game-container {
+    height: 500px;
+    width: 700px;
+    background-color: #34495e;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    
+}
+
+.slot-col {
+    height: 80%;
+    background-color: rgb(197, 171, 171);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.reel {
+    margin: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: transform 0.3s ease-out;
+}
+
+img{
+    height: 70px;
+    width: 70px;
+}
+
+#spinButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    background-color: #e74c3c;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#spinButton:hover {
+    background-color: #c0392b;
+}
+
+#result {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.resultfield
+{
+    height: 80%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
